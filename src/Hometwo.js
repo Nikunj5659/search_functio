@@ -97,40 +97,6 @@ const Hometwo = () => {
     },
   ];
 
-  //   const filterDataFuncation = (dataList, filters) => {
-  //     return dataList.filter((item) => {
-  //       if (
-  //         !filters ||
-  //         Object.values(filters).every((filter) => !filter || filter.length === 0)
-  //       ) {
-  //         return true;
-  //       }
-
-  //       const conditions = [];
-
-  //       if (filters.selectedCate && filters.selectedCate.length > 0) {
-  //         conditions.push(filters.selectedCate.includes(item.catagory));
-  //       }
-
-  //       if (filters.selectedCity && filters.selectedCity.length > 0) {
-  //         conditions.push(filters.selectedCity.includes(item.city));
-  //       }
-
-  //       if (filters.selectedType && filters.selectedType.length > 0) {
-  //         conditions.push(filters.selectedType.includes(item.type));
-  //       }
-
-  //       if (filters.selectedActive && filters.selectedActive.length > 0) {
-  //         conditions.push(filters.selectedActive.includes(item.action));
-  //       }
-
-  //       if (conditions.length === 0) {
-  //         return true;
-  //       }
-
-  //       return conditions.every((condition) => condition);
-  //     });
-  //   };
   const [searchText, setSearchText] = useState("");
   const [data, setData] = useState(dataList);
 

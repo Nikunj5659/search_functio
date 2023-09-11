@@ -18,14 +18,6 @@ const Home = () => {
       city: "abc",
     },
     {
-      id: 111,
-      name: "hello thare",
-      catagory: "one",
-      type: "A",
-      action: "FALSE",
-      city: "abc",
-    },
-    {
       id: 2,
       name: "fuchsia rose",
       catagory: "two",
@@ -91,6 +83,14 @@ const Home = () => {
     },
     {
       id: 10,
+      name: "mimosa",
+      catagory: "five",
+      type: "E",
+      action: "TRUE",
+      city: "qwe",
+    },
+    {
+      id: 13,
       name: "mimosa",
       catagory: "five",
       type: "E",
